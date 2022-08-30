@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/home1/static/css/main.86c5e1bf.css",
+    "main.js": "/home1/static/js/main.7a051916.js",
+    "static/js/787.bc3cced5.chunk.js": "/home1/static/js/787.bc3cced5.chunk.js",
+    "static/media/unsplash_LRXYS0tSyGc.svg": "/home1/static/media/unsplash_LRXYS0tSyGc.1a6ac6c50eb3ce62d0a681eeb15c2e4b.svg",
+    "static/media/Animation2.svg": "/home1/static/media/Animation2.af5f464c215d15c2a5d7fef9637fae54.svg",
+    "static/media/dermato.png": "/home1/static/media/dermato.058cef8c7ab2873abce7.png",
+    "static/media/stylist.png": "/home1/static/media/stylist.72d4162255148457799f.png",
+    "static/media/surgeon.png": "/home1/static/media/surgeon.fc9063f96c62f0e742ef.png",
+    "static/media/Animation1.svg": "/home1/static/media/Animation1.797075d6f4abb3cfaa7fd53656b43db9.svg",
+    "static/media/Footer BG 1.png": "/home1/static/media/Footer BG 1.3a030b44fcd5da1354fc.png",
+    "static/media/Footer BG 2.png": "/home1/static/media/Footer BG 2.b797ccf4a6aa6cf19792.png",
+    "static/media/Animation3.svg": "/home1/static/media/Animation3.d6b6ab91100223872d730e472ffb5adb.svg",
+    "index.html": "/home1/index.html",
+    "static/media/muiten.svg": "/home1/static/media/muiten.c2b3c8e6bfed563a243b7c7aa7036688.svg",
+    "static/media/Play_button.svg": "/home1/static/media/Play_button.003f9594799136cabb2583a0be2d6bd8.svg",
+    "main.86c5e1bf.css.map": "/home1/static/css/main.86c5e1bf.css.map",
+    "main.7a051916.js.map": "/home1/static/js/main.7a051916.js.map",
+    "787.bc3cced5.chunk.js.map": "/home1/static/js/787.bc3cced5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86c5e1bf.css",
+    "static/js/main.7a051916.js"
+  ]
+}
