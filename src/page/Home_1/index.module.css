@@ -19,6 +19,8 @@
     align-items: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     z-index: 1;
+    max-width: 200px;
+    cursor: pointer;
 }
 
 .mainItem{
@@ -32,6 +34,7 @@
     height: 63px;
     position: relative;
     margin-right: 34px;
+    cursor: pointer;
 }
 
 .beautiText{
@@ -128,6 +131,7 @@
     line-height: 24px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* Main slider */
@@ -162,6 +166,10 @@
     line-height: 24px;
     letter-spacing: 0.1em;
     color: #091156;
+}
+
+.imgFrame1{
+    width: 400px;
 }
 
 .MoreDetail{
@@ -209,6 +217,7 @@
     background: #EEEEEE;
     border-radius: 50px;
     transform: matrix(1, 0, 0, -1, 0, 0);
+    cursor: pointer;
 }
 
 .rectangleMid{
@@ -221,6 +230,7 @@
     border-radius: 50px;
     transform: matrix(1, 0, 0, -1, 0, 0);
     border: none;
+    cursor: pointer;
 }
 
 
@@ -244,7 +254,7 @@
 }
 
 .core{
-    
+    cursor: pointer;
     background: #FFFFFF;
     box-shadow: 0px 25px 50px 25px #f7f7ff;
     border-radius: 42px;
@@ -253,7 +263,7 @@
 }
 
 .CoreSev{
-    width: 75%;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -301,22 +311,17 @@
 }
 
 .titleMain{
-    /* width: 113px; */
-    /* height: 20px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 125%;
-    text-align: center;
     color: #FF64AE;
     display: inline;
     margin-bottom: 15px;
 }
 
 .titlelern{
-    /* width: 732px;
-    height: 97px; */
     font-weight: 600;
     font-size: 36px;
     line-height: 110%;
@@ -325,18 +330,13 @@
 }
 
 .titlePorta{
-    /* width: 848px;
-    height: 51px; */
-    width: 55%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
     letter-spacing: 0.1em;
     color: #8B8B8B;
-    margin: 0 auto 82px;
 }
 
 
@@ -451,7 +451,7 @@
 }
 
 .aboutImg{
-    width: 476px;
+    width: 50%;
     /* height: 350px; */
     z-index: 1;
     border-radius: 50px;
@@ -461,7 +461,7 @@
     background-image: url("../../image/Background Bubble.svg");
     background-repeat: no-repeat;
     background-origin:border-box;
-    background-position: 100% 95%;
+    background-position: 100% 100%;
     max-width: 1519px;
     margin: 0 auto;
 }
@@ -469,12 +469,12 @@
 /* Proffestional Teams */
 
 .ProfestionalTeams{
-    width: 75%;
+    max-width: 1140px;
     margin: 0 auto 144px;
 }
 
 .ProfestionalTitle{
-    width: 848px;
+    max-width: 1140px;
     text-align: center;
     margin: 0 auto;
 }
@@ -790,9 +790,10 @@
     background-image: url("../../image/Background Bubble2.svg");
     background-repeat: no-repeat;
     background-origin: border-box;
-    background-position: 0% 72%;
+    background-position: 0% 75%;
     max-width: 1519px;
     margin: 0 auto;
+    /* background-size: 123% 46%; */
 }
 
 .sendContact{
@@ -826,6 +827,7 @@
     line-height: 36px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .ellipses1{
@@ -986,20 +988,17 @@
     color: #D7DBFF;
 }
 .footer{
-    /* width: 75%;
-    margin: 0 auto; */
-    width: 75%;
+    max-width: 1140px;
     margin: 0 auto;
-    /* display: none; */
 }
 
 
 .backgroundFooter2{
     background-image: url("../../image/Bottom BG.png");
     background-repeat: no-repeat;
-    background-origin: border-box;
-    background-position: 50% 100%;
-    background-size: 100% 49%;
+    background-position-y: 100%;
+    background-origin:border-box;
+    background-size: 100% 20%;
     max-width: 1519px;
     margin: 0 auto;
 }
@@ -1009,7 +1008,8 @@
     background-repeat: no-repeat;
     background-clip: padding-box;
     background-origin: border-box;
-    background-size: 100% 106%;
+    background-size: 100%;
+    background-position-y: 99%;
     padding: 190px 0;
 }
 
@@ -1030,6 +1030,407 @@
     display: none;
 }
 
-.imgUp{
+.contactImage{
+
+}
+
+.iconMenu{
+    display: none;
+}
+
+@media screen and (max-width:1285.7px){
+    .backgroundheader{
+        background-size: 90%;
+    }
+    .backgroundFooter{
+        padding: 155px 0;
+    }
+    .footerUp{
+        margin: 0 auto 100px;
+    }
+    .footer{
+        margin: 0 auto -25px;
+    }
+}
+
+@media screen and (max-width:1190px){
+    .site__header{
+        max-width: 840px;
+        margin: 0 auto 120px;
+    }
+    .frame1{
+        margin: 0 auto;
+    }
+    .ProfestionalTeams,
+    .frame1,
+    .CoreSev,
+    .allCore,
+    .aboutUs{
+        max-width: 840px;
+    }
+    .aboutUs{
+        margin: 0 auto 120px;
+    }
+    .allCore{
+        display: block;
+    }
+    .mainMenu{
+        width: 400px
+    }
+    .textClinic{
+        font-size: 44px;
+    }
+    .textLong{
+        font-size: 14px;
+    }
+    .listButton{
+        margin-bottom: 80px;
+    }
+    .imgFrame{
+        position: none;
+    }
+    .MoreDetail{
+        margin-bottom: 100px;
+    }
+    .core{
+        padding-bottom: 14%;
+        max-width: 460px;
+        margin: 0 auto 8%;
+    }
+    .textMain{
+        margin: 0 auto 13px;
+    }
+    .aboutText2{
+        font-size: 30px;
+    }
+    .aboutText3,
+    .aboutText4{
+        width: 100%;
+    }
+    .ProfestionalText2{
+        font-size: 30px;
+    }
+    .backgroundBudder{
+        background-size: 80%;
+    }
+    .infomation{
+        max-width: 840px;
+        display: block;
+    }
+    .boxLeft,
+    .boxRight{
+        margin: 0 auto;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px 25px #f7f7ff;
+        border-radius: 42px;
+        padding: 91px 89px 63px;
+        z-index: 4;
+        margin-bottom: 40px;
+    }
+    .boxMid{
+        max-width: 270px;
+        margin: 0 auto;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px 25px #f7f7ff;
+        border-radius: 42px;
+        padding: 91px 89px 63px;
+        z-index: 4;
+        margin-bottom: 40px;
+    }
+    .boxSocial{
+        margin: 0 auto;
+    }
+    .contact{
+        max-width: 840px;
+    }
+    .contactRight{
+        max-width: 420px;
+    }
+    .contactImage{
+        max-width: 460px;
+    }
+    .fullname{
+        display: block;
+    }
+    .firstName{
+        width: 100%;
+        margin-bottom: 38.32px;
+    }
+    .lastName{
+        width: 100%;
+    }
+    .contactEmail,
+    .contactMess,
+    .contactCmt{
+        width: 100%;
+    }
+    .contactBubber{
+        background-size: 80%;
+    }
+    .footer{
+        max-width: 840px;
+        margin: 0 auto -70px;
+    }
+    .footerUp{
+        margin: 0 auto 73px;
+    }
+    .backgroundFooter{
+        padding: 166px 0;
+    }
+}
+
+@media screen and (max-width:1090px){
+    .sendContact{
+        margin: 0;
+    }
+    .footerUp{
+        margin: 0 auto 22px;
+        max-width: 780px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .iconMenu{
+        display: block;
+        cursor: pointer;
+    }
+    .mainMenu{
+        display: none;
+    }
+    .site__header,
+    .frame1,
+    .CoreSev{
+        max-width: 70%;
+    }
+    .site__header{
+        margin-bottom: 100px;
+    }
+    .frame1{
+        display: block;
+        text-align: center;
+    }
+    .contactButton{
+        padding: 15px 42px;
+    }
+    .MoreDetail{
+        margin-bottom: 100px;
+    }
+    .titlelern{
+        font-size: 30px;
+    }
+    .textClinic{
+        margin-bottom: 14px;
+    }
+    .textLong{
+        font-weight: 600;
+    }
+    .contactButton{
+        display: none;
+    }
+    .titlePorta{
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .core{
+        max-width: 460px;
+    }
+    .aboutUs{
+        max-width: 460px;
+        display: block;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .aboutText1{
+        text-align: center;
+        width: 100%;
+    }
+    .buttonUs{
+        margin-bottom:30px
+
+    }
+    .aboutImg{
+        width: 90%;
+    }
+    .backgroundBudder{
+        background-position: 100% 83%;
+    }
+    .infomation{
+        max-width: 460px;
+    }
+    .contact{
+        max-width: 460px;
+        display: block;
+    }
+    .contactRight{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer{
+        margin: 0 auto -117px;
+    }
+    .footerUp2,
+    .footerUp3{
+        display: none
+    }
+    .footerUp1{
+        max-width: 460px;
+        margin: 0 auto;
+    }
+    .footerDown{
+        max-width: 460px;
+        display: block;
+    }
+    .footerDownLeft{
+        display: none;
+    }
+    .footerLogo{
+        justify-content: center;
+    }
+    .footerAddress{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footerInfomation{
+        margin: 0 auto 12px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .textClinic{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .backgroundBudder{
+        background-position: 100% 80%;
+    }
+    .footerLogo{
+        margin-bottom: 30px;
+    }
+    .footerTextTheme{
+        font-size: 15px;
+    }
+    .footer{
+        margin: 0 auto -135px;
+    }
+}
+
+@media screen and (max-width:680px){
+    .site__header,
+    .frame1{
+        max-width: 80%;
+    }
+    .frame1{
+        margin-bottom: 80px;
+    }
+    .textClinic{
+        font-size: 33px;
+    }
+    .imgFrame1{
+        max-width: 300px;
+    }
+    .frame1{
+        margin-bottom: 0;
+    }
+    .ProfestionalTeams{
+        max-width: 80%;
+    }
+    .backgroundBudder{
+        background-position: 100% 76%;
+    }
+    .contactText2,
+    .contactText3{
+        font-size: 30px;
+    }
+    .contactText4{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .footer{
+        max-width: 370px;
+    }
+    .footerTextTheme{
+        font-size: 13px;
+    }
+    .footerDownRightText{
+        font-size: 14px;
+    }
+    .footerAddress,
+    .footerInfomation{
+        display: none;
+    }
+}
+
+@media screen and (max-width:530px){
+    .core{
+        max-width: 370px;
+    }
+    .Main1{
+        width: 130px;
+        padding: 60px 40px;
+    }
+    .aboutUs{
+        max-width: 370px;
+    }
+    .buttonUs{
+        display: block;
+    }
+    .playAbout{
+        max-width: 370px;
+        justify-content: center;
+        text-align: center;
+    }
+    .buttonMore{
+        margin-bottom: 22px;
+    }
+    .buttonUs{
+        max-width: 370px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .aboutTitle{
+        margin-bottom: 30px;
+    }
+    .aboutImg{
+        max-width: 90%;
+    }
+    .backgroundBudder{
+        background-position: 100% 69%;
+    }
+    .infomation{
+        max-width: 350px;
+    }
+    .boxLeft,
+    .boxRight{
+        padding: 91px 40px 63px
+    }
+    .contact{
+        max-width: 370px;
+    }
+    .contactImage{
+        width: 370px;
+    }
+    .footerTextTheme{
+        display: none;
+    }
+    .footerUp{
+        margin-bottom: 0;
+    }
+    .footer{
+        margin-top: 28px;
+    }
+    .footerLogo{
+        margin: 0;
+    }
+    .backgroundBudder{
+        background-position: 100% 69%;
+    }
+    .contactCmt{
+        width: 100%;
+        padding: 25.32px 0 186.16px 24px;
+    }
+}
+@media screen and (max-width:530px){
     
 }
